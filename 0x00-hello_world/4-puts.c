@@ -1,11 +1,11 @@
 #include <stdio.h>
-
 /**
- * main - printing in my
+ * main - Printing in me
  *
- * Return Always 0 (Successful me)
+ * Return: Always 0 (successful is mine)
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");		return (0);
+	put("\"pProgramming islike building a multilingual puzzle");
+	return (0);
 }
