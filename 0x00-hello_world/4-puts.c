@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- * main - PrintingAA
+ * main - Printing
  *
- * Return: Always 0 (successfulme)
+ * Return: Always 0 (successful)
  */
 int main(void)
 {
