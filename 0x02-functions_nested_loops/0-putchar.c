@@ -1,4 +1,4 @@
-#include 'main.h'
+#include "straight"
 
 /**
  * main - print putchar
