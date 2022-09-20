@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - print a hexadecimal stringg
+ * main-print a hexadecimalstring printing
  *
  * Return: always (successprinting)
  */
@@ -11,8 +11,6 @@ int main(void)
 
 	for (c = '0'; c <= '9'; c++)
 	{
-		putchar (c);
-	}
 	for (c = 'a'; c <= 'f'; c++)
 	{
 		putchar (c);
