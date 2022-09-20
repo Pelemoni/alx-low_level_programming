@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main lowercase and uppercase printing
+ * main - lowercase and uppercase printing
  *
  * Return: Always (successprinting)
  */
