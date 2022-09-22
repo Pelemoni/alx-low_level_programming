@@ -14,6 +14,7 @@ int *p;
 
 a[2] = 1024;
 p = &n;
+
 /*
  * please write your line of code here...
  * Remember:
