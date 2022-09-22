@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - prints magic
+ *
+ * Return: always 0 (successme)
+ */
+
 int main(void)
 {
 int n;
