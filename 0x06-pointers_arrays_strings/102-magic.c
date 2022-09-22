@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - prints magic
+ * magic - prints magic
  *
  * Return: always 0 (successme)
  */
