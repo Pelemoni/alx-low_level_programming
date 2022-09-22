@@ -1,25 +1,22 @@
-#ifndef MAIN_H
-#define MAIN_H
-#include <stdio.h>
-/**
- * void prototypes()
- * int prototypes()
- * char prototypes()
- */
-void reverse_array(int *a, int n);
-void print_number(int n);
-void print_buffer(char *b, int size);
-int _strcmp(char *s1, char *s2);
-int _putchar(char c);
-char *_strcat(char *dest, char *src);
-char *_strncat(char *dest, char *src, int n);
-char *_strncpy(char *dest, char *src, int n);
-char *string_toupper(char *);
-char *cap_string(char *);
-char *leet(char *);
-char *rot13(char *);
-char *infinite_add(char *n1, char *n2, char *r, int size_r);
-char *add_strings(char *n1, char *n2, char *r, int r_index);
+#include "main.h"
 
-#endif /*MAIN_H*/
+/**
+ * print_number- do print an integer for me pls
+ * @n:integer to be printed printed for me
+ *
+ */
+
+void print_number(int n)
+{
+	unsigned int num = n;
+
+	if (n < 0)
+	{
+		_putchar('-');
+		num = -num;
+	}
+	if ((num / 10) > 0)
+		print_number(num / 10);
+	_putchar((num % 10) + '0');
+}
 
