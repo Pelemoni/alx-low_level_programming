@@ -1,6 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - print magic
+ *
+ * Return: always0 (successmmee)
+ */
+
 int main(void)
+
 {
 int n;
 int a[5];
