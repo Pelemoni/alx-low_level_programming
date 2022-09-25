@@ -1,7 +1,8 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * print_alphabet – function  printc
+ * print_alphabet – function  princ
+ *
  * Return: 0 go
  */
 
