@@ -2,7 +2,7 @@
 
 /**
  * _islower - function to check for lowercase character printing
- * @c:  that is the int that will use for the argument of the function
+ *@c:  that is the int that will use for the argument of the function
  * Return: 0
  */
 
