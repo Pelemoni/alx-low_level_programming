@@ -11,6 +11,8 @@
 int add(int num1, int num2);
 
 {
-	return (num 1 + num 2);
+
+	return (num 1, nupm 2);
 }
+
 
